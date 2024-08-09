@@ -4,12 +4,14 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
-    color:rgb(253, 110, 10);
+
+.text-primary {
+    color: rgb(253, 110, 10);
 }
-.btn-primary{
-    width: 80x;
-    height: 30px;
+
+.btn-primary {
+    width: 50x;
+    height: 5px;
     padding: 20px 35px 35px 20px;
     background: rgb(253, 110, 10);
     color: white;
@@ -24,6 +26,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -32,15 +35,37 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
+
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 60px;
+}
+
+/* header section style */
+
+
+.header {
+    background-color: rgb(255, 248, 243);
+    ;
+}
+
+
+.banner {
+    margin: 20px 40px 130px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.pf-pic {
+    width: 500px;
+    height: 592px;
 }
