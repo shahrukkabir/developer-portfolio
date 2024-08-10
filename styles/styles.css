@@ -28,10 +28,17 @@ body {
     text-align: center;
 }
 
-.section-description {
+.section-description1 {
     text-align: center;
     color: rgb(117, 117, 117);
     font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.section-description2 {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 0px;
 }
@@ -183,13 +190,56 @@ main {
     gap: 70px
 }
 
-.resume-item-institute, .resume-item-description{
+.resume-item-institute,
+.resume-item-description {
     color: rgb(117, 117, 117);
 }
 
-.cvbtn{
+.cvbtn {
     /* margin: 50px 500px 100px 700px */
     text-align: center;
-    margin: 60px 0px;
+    margin: 100px 0px;
 
+}
+
+/* footer section style */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: rgb(255, 248, 243);
+    padding: 130px 230px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links{
+    margin-top: 30px;
+}
+
+.social-links a {
+    margin-left: 24px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: rgb(117, 117, 117);
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+
+}
+
+#section-title2 {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
 }
