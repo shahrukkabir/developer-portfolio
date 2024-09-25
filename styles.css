@@ -79,9 +79,9 @@ nav li {
 
 .header {
     background-color: rgb(255, 248, 243);
-    background-image: url('./images/header_bg.png') , url('./images/developer.png');
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right , top left;
+    background-position: bottom right, top left;
 
 }
 
@@ -213,7 +213,7 @@ footer {
     width: 50%;
 }
 
-.social-links{
+.social-links {
     margin-top: 30px;
 }
 
@@ -232,6 +232,7 @@ textarea {
     border-radius: 5px;
     background-color: white;
     width: 100%;
+    outline: 1px solid black; 
 
 }
 
@@ -245,28 +246,120 @@ textarea {
 
 /* responsive style */
 
-.hide{
+.hide {
     display: none;
 }
 
 /* mobile device */
 
 @media screen and (max-width:576px) {
-    .skills-container{
+
+    .skills-container,
+    .resume-container {
         flex-direction: column;
-        /* padding: 0;
-        margin: 0; */
     }
-    .skill{
+
+    .skill {
         margin: 10px auto;
     }
-    .about{
+
+    .about {
         padding: 10px;
         /* background: burlywood; */
         background: darkgray;
-        
+
     }
-    .section-description1, .section-description2{
+
+    .section-description1 {
         color: black;
+        margin: 20px;
+        text-align: justify;
     }
+
+    .section-description2 {
+        color: black;
+        text-align: justify;
+    }
+
+    .resume-container {
+        gap: 10px;
+    }
+
+    .resume-column {
+        padding: 30px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .cvbtn {
+        margin: 40px 0px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],.contact input[type="email"],textarea {
+        width: 70%;
+    }
+    #section-title2 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    .skills-container,
+    .resume-container {
+        flex-direction: column;
+    }
+
+    .skill {
+        margin: 10px auto;
+    }
+
+    .about {
+        padding: 10px;
+        /* background: burlywood; */
+        background: darkgray;
+
+    }
+
+    .section-description1 {
+        color: black;
+        margin: 20px;
+        text-align: justify;
+    }
+
+    .section-description2 {
+        color: black;
+        text-align: justify;
+    }
+
+    .resume-container {
+        gap: 10px;
+    }
+
+    .resume-column {
+        padding: 30px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .cvbtn {
+        margin: 40px 0px;
+    }
+
 }
