@@ -313,6 +313,9 @@ textarea {
     #section-title2 {
         text-align: center;
     }
+    .social-links a {
+        margin-left: 50px;
+    }
 
 }
 
@@ -360,6 +363,25 @@ textarea {
 
     .cvbtn {
         margin: 40px 0px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],.contact input[type="email"],textarea {
+        width: 70%;
+    }
+    #section-title2 {
+        text-align: center;
+    }
+    .social-links a {
+        margin-left: 50px;
     }
 
 }
