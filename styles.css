@@ -350,6 +350,10 @@ textarea {
      }
      .banner-second{
         font-size: 65px;
+        text-align: center;
+     }
+     .banner-first{
+        text-align: center;
      }
 
 
