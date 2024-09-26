@@ -232,7 +232,7 @@ textarea {
     border-radius: 5px;
     background-color: white;
     width: 100%;
-    outline: 1px solid black; 
+    outline: 1px solid black;
 
 }
 
@@ -307,15 +307,51 @@ textarea {
         width: 100%;
     }
 
-    .contact input[type="text"],.contact input[type="email"],textarea {
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
         width: 70%;
     }
+
     #section-title2 {
         text-align: center;
     }
+
     .social-links a {
         margin-left: 50px;
     }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner, .about-info-container{
+        flex-direction: column;
+
+    }
+    nav, nav>ul{
+        flex-direction: column;
+    }
+    nav>ul>li{
+        padding: 10px;
+    }
+    .pf-pic{
+        width: 100%;
+        height: fit-content;
+    }
+     .banner-content{
+        padding-left: 5px;
+     }
+     .banner{
+        margin: 0px;
+     }
+     #btn-primary-special{
+        width: 120px;
+     }
+     .banner-second{
+        font-size: 65px;
+     }
+
 
 }
 
@@ -374,12 +410,16 @@ textarea {
         width: 100%;
     }
 
-    .contact input[type="text"],.contact input[type="email"],textarea {
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
         width: 70%;
     }
+
     #section-title2 {
         text-align: center;
     }
+
     .social-links a {
         margin-left: 50px;
     }
